@@ -1,8 +1,6 @@
-# Repaso del training
+# Revisión de los ejercicios del training
 
-Nuestro primer día de Bootcamp lo dedicamos a revisar los ejercicios del training.
-
-A continuación se enumeran una lista de observaciones que hacen referencia a errores detectados. Aconsejamos que cada alumno revise su propio trabajo y aporte las correcciones que corresponden.
+A continuación se hace una lista de observaciones que hacen referencia a errores detectados en los ejercicios del training. Aconsejamos que cada alumno revise su propio trabajo y aporte las correcciones que corresponden.
 
 ## HTML: Ejercicio 1
 
