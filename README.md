@@ -78,7 +78,7 @@ A continuación se hace una lista de observaciones que hacen referencia a errore
 
 ## CSS: Ejercicio 3
 
-* En general poca iniciativa en el uso de los selectores CSS.
+* En general, poca iniciativa en el uso de los selectores CSS presentados en el training.
 * No es buena práctica el uso de selectores de ID por su alta especificidad.
 * Poca coherencia en la estética y en la navegación.
 * Se han creado tres ficheros CSS, uno por cada página. De esta manera no aprovechamos la herencia de estilos.
