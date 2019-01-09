@@ -43,16 +43,17 @@ caption{
     text-align: left;
 }
 
-th {
+thead th,
+tbody th,
+tbody td {
     border: 1px solid #ddd;
 }
 
-td {
-    border: 1px solid #ddd;
+td, th {
     padding: 0.5rem;
 }
 
-thead{
+thead th{
     background-color: #3c89ba;
     color: #fff;
 }
@@ -61,7 +62,7 @@ tbody th{
     background-color: #fffbcf;
 }
 
-.version{
+td.version{
     font-size: 130%;
     text-align: center;
 }
@@ -73,7 +74,7 @@ code{
     background-color: #eee;
 }
 
-code.version{
+td .version{
     border-color: rgba(255, 0, 0, 0.15);
     background-color: rgba(255, 0, 0, 0.3);
 }

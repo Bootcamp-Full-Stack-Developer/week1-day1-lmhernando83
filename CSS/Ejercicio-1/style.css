@@ -15,7 +15,7 @@ p:nth-of-type(2){
     line-height: 1.5;
 }
 
-abbr{
+ul abbr{
     font-family: monospace;
     font-size: .85rem;
 }
