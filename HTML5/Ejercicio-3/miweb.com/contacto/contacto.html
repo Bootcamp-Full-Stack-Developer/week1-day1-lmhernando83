@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sitio Web</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../../../CSS/Ejercicio-3/style.css" />
+    <script type="text/javascript" src="../../../../js/main.js"></script>
+</head>
+<body>
+
+    <header>
+
+            <h1>Sitio Web</h1>
+    
+            <button class="button_menu" id="button_menu" onclick="menu_open()">&#9776;</button>
+    
+                <nav class="modal" id="modal_open">
+    
+                    <button class="close" onclick="menu_close()">&times;</button>
+                        <ul>
+    
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="../productos/catalogo.html">Productos</a></li>
+                            <li><a href="contacto.html">Contacta con nosotros</a></li>
+                            
+                        </ul>
+    
+                </nav>
+    
+        </header>
+
+    <main>
+
+        <h2>Contacta con nosotros</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit:</p>
+
+        <address>
+            Sitio Web<br/>
+            Calle Atocha 25<br/>
+            28012 Madrid<br/>
+            <a href="mailto:micuenta@dominio.com">micuenta@dominio.com</a>
+        </address>
+
+        <p>Temporibus expedita quo ducimus odit cupiditate modi, dolores libero.</p>
+
+        <div class="container">
+
+            <form action="" method="GET">
+                <label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" value="" required>
+                </label>
+
+                <label>
+                    <input type="text" name="Apellido" id="Apellido" placeholder="Apellido" value="">
+                </label>
+
+                <label>
+                    <input type="email" name="Email" id="email" placeholder="Email" value="" required>
+                </label>
+
+                <label>
+                    <input type="tel" name="Telefono" id="Telefono" placeholder="Teléfono" value="" required>
+                </label>
+
+                <label>
+                    <textarea rows="10" cols="50" name="comentario" id="comentario" placeholder="Deja tu comentario"></textarea>
+                </label>
+
+                <label>
+                    <input type="checkbox" name="acepto" id="acepto" value="" required><a href="#">Acepto las condiciones de privacidad</a>
+                <label>
+                
+                <label>
+                    <input type="submit" value='Enviar'>
+                </label>
+            </form>
+
+        </div>
+
+    </main>
+</body>
+</html>
